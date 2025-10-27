@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fauzaan Hafeez - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website showcasing my professional experience, skills, and projects as a Senior Software Engineer and Technical Lead.
 
-First, run the development server:
+## 🚀 Built With
+
+- **Next.js 16** - React framework for production
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **React 19** - Latest React features
+
+## ✨ Features
+
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- **Dark Mode Support** - Automatically adapts to system preferences
+- **Smooth Animations** - Engaging user experience with smooth transitions
+- **SEO Optimized** - Proper meta tags and semantic HTML
+- **Smooth Scrolling** - Navigation with smooth scroll behavior
+- **Modern UI/UX** - Clean, professional design with attention to detail
+
+## 📋 Sections
+
+- **Hero** - Introduction with professional summary and call-to-action
+- **About** - Detailed professional summary and key highlights
+- **Skills** - Categorized display of technical skills and tools
+- **Experience** - Timeline of professional experience with achievements
+- **Projects** - Showcase of featured projects with impact metrics
+- **Education** - Academic qualifications
+- **Contact** - Multiple ways to get in touch
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository (if not already cloned)
+
+```bash
+git clone <repository-url>
+cd Portfolio
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+Portfolio/
+├── app/
+│   ├── layout.tsx       # Root layout with metadata
+│   ├── page.tsx         # Main page component
+│   └── globals.css      # Global styles and animations
+├── components/
+│   ├── Navigation.tsx   # Header navigation
+│   ├── Hero.tsx         # Hero section
+│   ├── About.tsx        # About section
+│   ├── Skills.tsx       # Skills section
+│   ├── Experience.tsx   # Experience timeline
+│   ├── Projects.tsx     # Projects showcase
+│   ├── Education.tsx    # Education section
+│   ├── Contact.tsx      # Contact information
+│   └── Footer.tsx       # Footer component
+├── public/              # Static assets
+└── package.json         # Dependencies and scripts
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To customize the portfolio:
 
-## Deploy on Vercel
+1. **Personal Information**: Update the content in each component file
+2. **Styling**: Modify Tailwind classes or add custom CSS in `globals.css`
+3. **Metadata**: Update SEO information in `app/layout.tsx`
+4. **Colors**: Customize the color scheme using Tailwind configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📱 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email**: fauzaanhafeez@icloud.com
+- **Phone**: (647)-633-6494
+- **LinkedIn**: [linkedin.com/in/fauzaan-h-sheikh](https://www.linkedin.com/in/fauzaan-h-sheikh)
+- **Location**: Mississauga, ON, Canada
+
+## 📄 License
+
+This project is private and proprietary.
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
