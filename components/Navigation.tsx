@@ -52,7 +52,7 @@ export default function Navigation() {
             >
               <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-blue-600 dark:border-blue-400 shadow-md">
                 <Image
-                  src="/profile.jpg"
+                  src="../public/profile.jpg"
                   alt="Fauzaan Hafeez"
                   width={56}
                   height={56}
@@ -108,7 +108,7 @@ export default function Navigation() {
             </button>
             <div className="w-full h-full relative">
               <Image
-                src="/profile.jpg"
+                src="../public/profile.jpg"
                 alt="Fauzaan Hafeez"
                 fill
                 className="object-cover"
