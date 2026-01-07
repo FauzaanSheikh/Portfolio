@@ -5,8 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/Portfolio",
-  assetPrefix: "/Portfolio/",
+  // No basePath needed for custom domain - serves from root
 };
 
 export default nextConfig;
