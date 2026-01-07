@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
+
+const basePath = process.env.NODE_ENV === 'production' ? '/Portfolio' : '';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,13 +52,13 @@ export default function Navigation() {
               title="View profile photo"
             >
               <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-blue-600 dark:border-blue-400 shadow-md">
-                <Image
-                  src="../public/profile.jpg"
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`${basePath}/profile.jpg`}
                   alt="Fauzaan Hafeez"
                   width={56}
                   height={56}
-                  className="object-cover"
-                  priority
+                  className="object-cover w-full h-full"
                 />
               </div>
             </button>
@@ -106,13 +107,12 @@ export default function Navigation() {
                 />
               </svg>
             </button>
-            <div className="w-full h-full relative">
-              <Image
-                src="../public/profile.jpg"
+            <div className="w-full h-full">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={`${basePath}/profile.jpg`}
                 alt="Fauzaan Hafeez"
-                fill
-                className="object-cover"
-                priority
+                className="object-cover w-full h-full"
               />
             </div>
           </div>
@@ -122,4 +122,3 @@ export default function Navigation() {
     </>
   );
 }
-
